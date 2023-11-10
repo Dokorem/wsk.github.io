@@ -1,0 +1,452 @@
+body{
+    margin:0;
+    padding:0;
+    height: 2000px;
+
+}
+header{
+    position: relative;
+    bottom: 60px;
+    max-width: 100%;
+    height: 150px;
+    background-color: #5e2b42;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,.2);
+}
+.logo{  
+    position: relative;
+    left:44%;
+    top:30%;
+    font-weight: bold;
+    color:white;
+    font-size:60px;
+    font-family:"Roboto", Arial, sans-serif;
+}
+.about-site{  
+    position: relative;
+    bottom:60px;
+    max-width: 100%;
+    height: 813px;;
+    background-color: black;
+}
+.about-container{
+    width: 50%;
+    max-width: 100%;
+    height: 813px;
+    background-color: rgba(0,0,0,.6);
+    line-height: 68px;
+    position: absolute;
+    top:0px;
+    color: white;
+}
+.about-container h2 {
+    font-size: 70px;
+    font-weight: bold;
+    font-family:"Roboto", Arial, sans-serif;
+    position: relative;
+}
+.about-container p{
+    position: relative;
+    left:50px;
+    bottom: 30px;
+    font-size: 120%;
+    font-family:"Roboto", Arial, sans-serif;
+    position: relative;
+}
+.about-text{
+    padding: 120px 50px 0px 120px;
+}
+.buttons{
+    position: relative;
+    bottom:50px;
+    left:130px;
+}
+.buttons button{
+    width: 65%;
+    height: 80px;
+    border: 2px solid #ca5d8e;
+    border-radius: 10px;
+    font-size:20px;
+    font-weight: 600;
+    transition: all .5s;
+}
+.btn1{
+    background-color: #ca5d8e;
+    color:white;
+}
+.btn2{
+    background-image: none; 
+    background: transparent;
+    float: left;
+    background-color: transparent;
+    color:#ca5d8e;
+    position: relative;
+    top:10px;
+}
+.about-site button:hover{
+    transition: .5s;
+    transform: scale(1.05);
+}
+.main-info{
+    background-color: black;
+    max-width: 100%;
+    height: 900px;
+}
+.roadmap{
+    position: absolute;
+    top:1915px;
+    font-family:"Roboto",Arial,sans-serif;
+    margin-top: 10px;
+    width: 100%;
+    height: 1400px;
+    max-height:1500px;
+    background-color: black;
+}
+
+
+
+
+    #slider_bl{
+        height: 450px;
+        position: relative;
+        left: 50px;
+        top: 300px;
+        width: 700px;
+    }
+    
+    #slider_bl .wrapper {
+        max-width: 60em;
+        margin: 6em auto;
+        position: relative;
+        width: 700px;
+        height: 450px;
+    }
+    
+    #slider_bl input {
+        display: none;
+    }
+    
+    #slider_bl .inner {
+        width: 500%;
+        position: relative;
+        line-height: 0
+    }
+    
+    #slider_bl article {
+        width: 700px;
+        float: left;
+        position: relative
+    }
+    
+    #slider_bl article img {
+        width: 700px;
+        height: 450px;
+    }
+
+    
+    .slider-dot-control label {
+        cursor: pointer;
+        border-radius: 30px;
+        display: inline-block;
+        width: 240px;
+        height: 105px;
+        margin-left: 16px;
+        background: none;
+        border:2px solid #ca5d8e;
+        color:#ca5d8e;
+        transition: all .3s;
+        position: relative;
+        top: 200px;
+        opacity:.9;
+    }
+    .slider-dot-control2 label {
+        cursor: pointer;
+        border-radius: 30px;
+        display: inline-block;
+        width: 240px;
+        height: 105px;
+        margin-left: 16px;
+        background: none;
+        border:2px solid #ca5d8e;
+        color:#ca5d8e;
+        transition: all .3s;
+        position: relative;
+        top: 200px;
+        opacity:.9;
+    }
+
+.slider-dot-control label:hover {
+        color: white;
+        transform: scale(1.05);
+        background-color: #ca5d8e;
+    }
+    
+    #slider_bl .slider-wrapper {
+        width: 100%;
+        position: relative;
+        bottom:30%;
+        left:78%;
+        overflow: hidden;
+        border-radius: 60px;
+        background: #000000;
+        transition: all .5s cubic-bezier()
+    }
+    
+    #slider_bl .slider-wrapper .inner {
+        transform: translateZ(0);
+        transition: all .8s cubic-bezier(.77, 0, .175, 1)
+    }
+    
+ 
+    #slider_bl #slide1:checked ~ .slider-wrapper .inner {
+        margin-left: 0
+    }
+    
+    #slider_bl #slide2:checked ~ .slider-wrapper .inner {
+        margin-left: -100%
+    }
+    
+    #slider_bl #slide3:checked ~ .slider-wrapper .inner {
+        margin-left: -200%
+    }
+    
+    #slider_bl #slide4:checked ~ .slider-wrapper .inner {
+        margin-left: -300%
+    }
+    
+    #slider_bl #slide6:checked ~ .slider-wrapper .inner {
+        margin-left: -300%
+    }
+    #slider_bl #slide7:checked ~ .slider-wrapper .inner {
+        margin-left: 0
+    }
+    
+    #slider_bl #slide8:checked ~ .slider-wrapper .inner {
+        margin-left: -100%
+    }
+    
+    #slider_bl #slide9:checked ~ .slider-wrapper .inner {
+        margin-left: -200%
+    }
+    .slide3{
+        position: relative;
+        top: -95px;
+        width: 100%;
+        height: 1080px;
+        background-color: #000000;
+    }
+    
+    .slide4{
+        position: relative;
+        top: -95px;
+        width: 100%;
+        height: 1080px;
+        background-color: #000000;
+        display: inline-block;
+        text-align: center;
+    }
+.slide4 b{
+    position: relative;
+    top:35px;
+    font-size:26px;
+}
+
+.game-container{
+    font-family:"Roboto",Arial,sans-serif;
+    padding:0;
+    margin: 0;
+    background-color: black;
+    position: relative;
+    top:1220px;
+    width: 100%;
+    height: 710px;
+}
+.game-text{
+    padding:50px;
+    color:white;
+    width: 50%;
+    height: 85.5%;
+    background-color: rgba(0,0,0,.6);
+    position: absolute;
+    top:0px;
+    
+}
+.game-text h2{
+    position: relative;
+    bottom:40px;
+    text-align: center;
+    font-weight: bold;
+    font-size:70px;
+}
+.game-text p{
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    bottom:10px;
+}
+.game-buttons{
+    position: relative;
+    left:140px;
+    bottom:250px;
+}
+.game-buttons button{
+    width: 40%;
+    height: 80px;
+    border: 2px solid #ca5d8e;
+    border-radius: 10px;
+    font-size:20px;
+    font-weight: 600;
+}
+.game-btn1{
+    background-color: #ca5d8e;
+    color:white;
+    transition: all .5s;
+}
+.game-btn2{
+    background-image: none; 
+    background: transparent;
+    float: left;
+    background-color: transparent;
+    color:#ca5d8e;
+    position: relative;
+    top:10px;
+    transition: all .5s;
+}
+.game-btn2:hover{
+
+    background-color: #ca5d8e;
+    color: white;
+}
+.btn2:hover{
+    background-color: #ca5d8e;
+    color: white;
+}
+.game-buttons button:hover{
+    transition: .5s;
+    transform: scale(1.05);
+}
+span{
+    width: 50px;
+    height: 100px;
+}
+span ol li{
+    font-weight: bold;
+    font-size:25px;
+    list-style-type: none;
+    color:white
+}
+span b{
+    font-family:"Roboto",Arial,sans-serif;
+    margin-right: 50PX;
+    color:white;
+    font-size:80px;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper{
+        position: relative;
+        right:735px;
+        bottom: 50px;
+        width: 400px;
+        height: 300px;
+    }
+    .inner{
+        width: 400px;
+        height: 300px;
+    }
+
+    #slider_bl article img {
+        border-radius: 50px;
+        width: 380px;
+        height: 210px;
+    }
+    .slide4 .slider-dot-control label {
+        cursor: pointer;
+        border-radius: 30px;
+        width: 120px;
+        height: 52px;
+        margin-left: 16px;
+        background: none;
+        border:2px solid #ca5d8e;
+        color:#fff;
+        transition: all .3s;
+        position: relative;
+        top: 200px;
+        opacity:.9;
+    }
+    .slide4 .slider-dot-control label b {
+        position: relative;
+        top:16px;
+        font-size:12px;
+    }
+    .roadmap{
+        position: absolute;
+        top:1500px;
+    }
+    
+    header{
+        height: 100px;
+    }
+    .logo{
+        position: relative;
+        left:26%;
+        top:20px;
+    }
+    .about-container{
+      width: 100%;
+      position: absolute;
+      top:0px;
+    }
+    .about-text{
+        position: relative;
+        right:115px;
+    }
+    .about-text p{
+        font-weight: bold;
+        position: relative;
+        left:0px;
+        top:-55px;
+        font-size:20px;
+        line-height: 20px;
+    }
+    .about-text h2{
+        font-size:62px;
+    }
+    .about-site .buttons{
+        width: 140%;
+        position: relative;
+        left:20px;
+        bottom:60px;
+    }
+    .buttons{
+        position: relative;
+        bottom:50px;
+        left:150px;
+    }
+    .game-container{
+        position: absolute;
+        top:2300px;
+    }
+    
+    .game-text h2{
+        font-size:50px;
+        position: relative;
+        left:60px;
+        bottom:50px;
+    }
+    .game-text p{
+        position: relative;
+        left:60px;
+        bottom: 60px;
+        font-size: 23px;
+    }
+    .game-buttons{
+        width: 180%;
+        position: relative;
+        bottom: 180px;
+        left: 60px;
+    }
+    .slide6l{
+        position: relative;
+        top:123px;
+    }
+}
